@@ -39,7 +39,7 @@ function populateContent(config) {
 
     // Set footer content
     const footerLove = document.querySelector('.footer__love');
-    footerLove.innerHTML = `&copy;${config.footer.year} All rights reserved &mdash; <a href="https://qloudai.app/" target="_blank">${config.footer.company_name}</a> | Reach Us - <a href="mailto:${config.footer.support_email}" target="_blank">${config.footer.support_email_display}</a>`;
+    footerLove.innerHTML = `&copy;${config.footer.year} All rights reserved &mdash; <a href="https://qloudai.app/" target="_blank">${config.footer.company_name}</a> | Reach Us - <a href="mailto:${config.footer.support_email}" target="_blank">${config.footer.support_email_display} | </a>`;
 
     document.querySelector('.footer__links a[href="privacy"]').href = config.footer.privacy_link;
     document.querySelector('.footer__links a[href="terms"]').href = config.footer.terms_link;
