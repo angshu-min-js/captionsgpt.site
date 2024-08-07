@@ -1,21 +1,21 @@
 title: "Captions GPT"
 content:
   h1: "Captions GPT"
-  subtitle: "DOWNLOAD THE APP"
+  subtitle: "Your personal social media assistant"
   app_links:
     app_store:
       text: "App Store"
       url: "#"
     google_play:
       text: "Google Play"
-      url: "#"
+      url: "https://apps.apple.com/us/app/captions-gpt/id6572327589"
 image:
   src: "CaptionsGPT.png"
   alt: "Weather App Interface"
 footer:
   company_name: "QloudAI"
   year: 2024
-  privacy_link: "privacy"
-  terms_link: "terms"
-  support_email: "support@germanwithnik.com"
+  privacy_link: "https://docs.google.com/document/d/1ntLlqEi-jLHFPoy5DceKUpEYXdDHHBwpFjyTgFmDkXI/edit?usp=sharing"
+  terms_link: "https://docs.google.com/document/d/12nJ8LDwKCHrv34X6VeFk0e9g4RlUW1mZZ_BnOPs8kA0/edit?usp=sharing"
+  support_email: ""
   support_email_display: "support@germanwithnik.com"
