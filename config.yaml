@@ -5,10 +5,10 @@ content:
   app_links:
     app_store:
       text: "App Store"
-      url: "#"
+      url: "https://apps.apple.com/us/app/captions-gpt/id6572327589"
     google_play:
       text: "Google Play"
-      url: "https://apps.apple.com/us/app/captions-gpt/id6572327589"
+      url: "#"
 image:
   src: "CaptionsGPT.png"
   alt: "Captions GPT"
