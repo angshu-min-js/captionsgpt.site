@@ -15,7 +15,7 @@ image:
 footer:
   company_name: "QloudAI"
   year: 2024
-  privacy_link: "https://docs.google.com/document/d/1ntLlqEi-jLHFPoy5DceKUpEYXdDHHBwpFjyTgFmDkXI/edit?usp=sharing"
+  privacy_link: "/privacy"
   terms_link: "/terms"
   support_email: "support@captionsgpt.site"
   support_email_display: "support@captionsgpt.site"
