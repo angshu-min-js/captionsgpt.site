@@ -75,3 +75,7 @@ window.onload = async function() {
         hideLoading();
     }
 };
+
+// Set video src
+const videoElement = document.querySelector('.mobile-frame video source');
+videoElement.src = config.image.src;
