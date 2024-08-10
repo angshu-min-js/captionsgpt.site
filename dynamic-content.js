@@ -33,9 +33,13 @@ function populateContent(config) {
     googlePlayLink.querySelector('span').textContent = config.content.app_links.google_play.text;
 
     // Set image src and alt
-    const imgElement = document.querySelector('.mobile-frame img');
-    imgElement.src = config.image.src;
-    imgElement.alt = config.image.alt;
+   // const imgElement = document.querySelector('.mobile-frame img');
+  //  imgElement.src = config.image.src;
+   // imgElement.alt = config.image.alt;
+
+    // Set video src
+    const videoElement = document.querySelector('.mobile-frame video source');
+    videoElement.src = config.image.src;
 
     // Set footer content
     const footerLove = document.querySelector('.footer__love');
@@ -75,7 +79,3 @@ window.onload = async function() {
         hideLoading();
     }
 };
-
-// Set video src
-const videoElement = document.querySelector('.mobile-frame video source');
-videoElement.src = config.image.src;
