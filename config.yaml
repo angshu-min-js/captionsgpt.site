@@ -10,7 +10,7 @@ content:
       text: "Google Play"
       url: "https://play.google.com/store/apps/details?id=com.qloudai.captionsgpt"
 image:
-  src: "CaptionsGPT.png"
+  src: "CaptionsGPT.mp4"
   alt: "Captions GPT"
 footer:
   company_name: "QloudAI"
