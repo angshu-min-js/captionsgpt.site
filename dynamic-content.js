@@ -38,8 +38,33 @@ function populateContent(config) {
    // imgElement.alt = config.image.alt;
 
     // Set video src
-    const videoElement = document.querySelector('.mobile-frame video source');
-    videoElement.src = config.image.src;
+    //const videoElement = document.querySelector('.mobile-frame video source');
+   // videoElement.src = config.image.src;
+
+     // Set YouTube Short
+    const youtubeContainer = document.getElementById('youtube-container');
+    const youtubeEmbed = document.createElement('iframe');
+    youtubeEmbed.src = `https://www.youtube.com/embed/${config.image.src}?autoplay=1&mute=1&loop=1&playlist=${config.image.src}&controls=0&modestbranding=1`;
+    youtubeEmbed.width = '100%';
+    youtubeEmbed.height = '100%';
+    youtubeEmbed.frameBorder = '0';
+    youtubeEmbed.allow = 'autoplay; encrypted-media';
+    youtubeEmbed.allowFullscreen = true;
+    youtubeContainer.appendChild(youtubeEmbed);
+
+    // Adjust aspect ratio for YouTube Short
+    youtubeContainer.style.position = 'relative';
+    youtubeContainer.style.paddingTop = '177.77%'; // 16:9 aspect ratio for vertical video
+
+    const embedWrapper = document.createElement('div');
+    embedWrapper.style.position = 'absolute';
+    embedWrapper.style.top = '0';
+    embedWrapper.style.left = '0';
+    embedWrapper.style.width = '100%';
+    embedWrapper.style.height = '100%';
+    
+    embedWrapper.appendChild(youtubeEmbed);
+    youtubeContainer.appendChild(embedWrapper);
 
     // Set footer content
     const footerLove = document.querySelector('.footer__love');
