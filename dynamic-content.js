@@ -48,7 +48,7 @@ function populateContent(config) {
     mobileFrame.appendChild(youtubeContainer);
 
     const youtubeEmbed = document.createElement('iframe');
-    youtubeEmbed.src = `https://www.youtube.com/embed/${config.image.src}?autoplay=1&mute=1&loop=1&playlist=${config.image.src}&controls=0&modestbranding=1`;
+    youtubeEmbed.src = `https://www.youtube.com/embed/${config.image.src}?autoplay=1&mute=0&loop=1&playlist=${config.image.src}&controls=0&modestbranding=1`;
     youtubeEmbed.frameBorder = '0';
     youtubeEmbed.allow = 'autoplay; encrypted-media';
     youtubeEmbed.allowFullscreen = true;
